@@ -1,0 +1,982 @@
+2016-10-25 18:58:30 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /app/
+Stack Trace:
+#0 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/app/index.php(17): require('/var/www/html/a...')
+#4 {main}
+2016-10-26 02:49:13 Error: [MissingControllerException] Controller class OAHTMLController could not be found.
+Exception Attributes: array (
+  'class' => 'OAHTMLController',
+  'plugin' => NULL,
+)
+Request URL: /OA_HTML/OA.jsp
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-26 04:25:51 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-26 10:06:52 Error: [MissingControllerException] Controller class 163mx01.mxmail.netease.com:25Controller could not be found.
+Exception Attributes: array (
+  'class' => '163mx01.mxmail.netease.com:25Controller',
+  'plugin' => NULL,
+)
+Request URL: /163mx01.mxmail.netease.com:25
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-26 10:28:48 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-26 16:51:57 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-26 22:18:02 Error: [MissingControllerException] Controller class CgiController could not be found.
+Exception Attributes: array (
+  'class' => 'CgiController',
+  'plugin' => NULL,
+)
+Request URL: /cgi/common.cgi
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-26 22:18:03 Error: [MissingControllerException] Controller class Stssys.htmController could not be found.
+Exception Attributes: array (
+  'class' => 'Stssys.htmController',
+  'plugin' => NULL,
+)
+Request URL: /stssys.htm
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-26 22:18:05 Error: [MissingControllerException] Controller class Command.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Command.phpController',
+  'plugin' => NULL,
+)
+Request URL: /command.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-26 22:18:06 Error: [MissingControllerException] Controller class LanguageController could not be found.
+Exception Attributes: array (
+  'class' => 'LanguageController',
+  'plugin' => NULL,
+)
+Request URL: /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-26 23:56:43 Error: [MissingViewException] View file "Posts/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/view.ctp',
+)
+Request URL: /posts/view/1
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-27 01:22:17 Error: Fatal Error (1): Call to a member function input() on a non-object in [/var/www/html/app/View/Posts/add.ctp, line 4]
+2016-10-27 01:22:17 Error: [FatalErrorException] Call to a member function input() on a non-object
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 03:02:13 Error: [MissingControllerException] Controller class CheckProxyController could not be found.
+Exception Attributes: array (
+  'class' => 'CheckProxyController',
+  'plugin' => NULL,
+)
+Request URL: /check_proxy
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-27 05:03:41 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-27 08:10:29 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-27 10:07:51 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-27 10:13:34 Error: [MissingViewException] View file "Users/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/edit.ctp',
+)
+Request URL: /users/edit/1
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-27 12:12:38 Error: [NotFoundException] Invalid user
+Request URL: /users/edit/3
+Stack Trace:
+#0 [internal function]: UsersController->edit('3')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-27 12:13:40 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /logout
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-27 14:36:11 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-27 16:05:51 Error: [MissingControllerException] Controller class AssetController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetController',
+  'plugin' => NULL,
+)
+Request URL: /asset/js/common/menu.js
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-27 18:36:37 Error: [MissingActionException] Action UsersController::dd() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'dd',
+)
+Request URL: /users/dd
+Stack Trace:
+#0 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-10-27 18:42:59 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/html/app/Controller/RoomsController.php, line 23]
+2016-10-27 18:42:59 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 23, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 23, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 18:43:22 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/html/app/Controller/RoomsController.php, line 23]
+2016-10-27 18:43:22 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 23, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 23, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:09:39 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/var/www/html/app/Controller/RoomsController.php, line 24]
+2016-10-27 19:09:39 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 24, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 24, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:10:51 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/var/www/html/app/Controller/RoomsController.php, line 24]
+2016-10-27 19:10:51 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 24, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 24, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:10:53 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/var/www/html/app/Controller/RoomsController.php, line 24]
+2016-10-27 19:10:53 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 24, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 24, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:11:08 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/var/www/html/app/Controller/RoomsController.php, line 24]
+2016-10-27 19:11:08 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 24, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 24, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:13:39 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/var/www/html/app/Controller/RoomsController.php, line 24]
+2016-10-27 19:13:39 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 24, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 24, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:15:55 Error: [MissingControllerException] Controller class RoomsController could not be found.
+Exception Attributes: array (
+  'class' => 'RoomsController',
+  'plugin' => NULL,
+)
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-27 19:16:46 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/app/Controller/RoomsController.php, line 11]
+2016-10-27 19:16:46 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 11, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 11, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:17:06 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/app/Controller/RoomsController.php, line 12]
+2016-10-27 19:17:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 12, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 12, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:17:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/app/Controller/RoomsController.php, line 12]
+2016-10-27 19:17:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 12, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 12, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:18:33 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/app/Controller/RoomsController.php, line 11]
+2016-10-27 19:18:33 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 11, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 11, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:18:36 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/app/Controller/RoomsController.php, line 11]
+2016-10-27 19:18:36 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /rooms/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 11, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 11, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:20:03 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-27 19:44:00 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/html/app/Controller/RoomsController.php, line 46]
+2016-10-27 19:44:00 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /rooms/chat/3
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 46, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 46, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:50:34 Error: Fatal Error (4): syntax error, unexpected '[' in [/var/www/html/app/Controller/RoomsController.php, line 52]
+2016-10-27 19:50:34 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /rooms/chat/3
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 52, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 52, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 19:50:52 Error: Fatal Error (4): syntax error, unexpected '[' in [/var/www/html/app/Controller/RoomsController.php, line 52]
+2016-10-27 19:50:52 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /rooms/chat/3
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 52, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 52, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 22:54:00 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/html/app/Controller/RoomsController.php, line 42]
+2016-10-27 22:54:00 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /rooms/chat/3
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 42, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 42, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 22:54:22 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/html/app/Controller/RoomsController.php, line 42]
+2016-10-27 22:54:22 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /rooms/chat/3
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 42, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 42, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-27 22:54:37 Error: [MissingLayoutException] Layout file "Layouts/Chat.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/Chat.ctp',
+)
+Request URL: /rooms/chat/3
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(514): View->_getLayoutFileName('Chat')
+#1 /var/www/html/lib/Cake/View/View.php(481): View->renderLayout('', 'Chat')
+#2 /var/www/html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest))
+#5 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-10-27 22:54:48 Error: [MissingLayoutException] Layout file "Layouts/Chat.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/Chat.ctp',
+)
+Request URL: /rooms/chat/3
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(514): View->_getLayoutFileName('Chat')
+#1 /var/www/html/lib/Cake/View/View.php(481): View->renderLayout('', 'Chat')
+#2 /var/www/html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest))
+#5 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-10-28 00:05:24 Error: Fatal Error (1): Call to a member function create() on a non-object in [/var/www/html/app/View/Rooms/chat.ctp, line 19]
+2016-10-28 00:05:24 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /rooms/chat/3
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 19, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 19, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-28 00:12:53 Error: [MissingControllerException] Controller class WebController could not be found.
+Exception Attributes: array (
+  'class' => 'WebController',
+  'plugin' => NULL,
+)
+Request URL: /web/ptz.html/manager/html
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 02:17:53 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 05:39:03 Error: [MissingControllerException] Controller class Wp-login.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Wp-login.phpController',
+  'plugin' => NULL,
+)
+Request URL: /wp-login.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 05:39:05 Error: [MissingControllerException] Controller class AdministratorController could not be found.
+Exception Attributes: array (
+  'class' => 'AdministratorController',
+  'plugin' => NULL,
+)
+Request URL: /administrator/index.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 08:17:33 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 09:35:41 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 10:18:42 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 10:18:43 Error: [MissingControllerException] Controller class SecretarialController could not be found.
+Exception Attributes: array (
+  'class' => 'SecretarialController',
+  'plugin' => NULL,
+)
+Request URL: /secretarial/160.170.40.1.2.eCBjIHYgZw..
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 10:52:43 Error: [MissingControllerException] Controller class HelloController could not be found.
+Exception Attributes: array (
+  'class' => 'HelloController',
+  'plugin' => NULL,
+)
+Request URL: /hello?proxy_ip=160.16.116.156&proxy_port=80&found_timestamp=1477619563
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 16:53:06 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 16:53:13 Error: [MissingControllerException] Controller class PrepayController could not be found.
+Exception Attributes: array (
+  'class' => 'PrepayController',
+  'plugin' => NULL,
+)
+Request URL: /prepay/661.56.88.1.2.d2l6YXJkeTg.
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 18:32:15 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 18:32:41 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-28 22:23:50 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 03:52:04 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 04:03:39 Error: [MissingControllerException] Controller class Vip163mx01.mxmail.netease.com:25Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Vip163mx01.mxmail.netease.com:25Controller',
+  'plugin' => NULL,
+)
+Request URL: /vip163mx01.mxmail.netease.com:25
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 06:24:07 Error: [MissingControllerException] Controller class CgiController could not be found.
+Exception Attributes: array (
+  'class' => 'CgiController',
+  'plugin' => NULL,
+)
+Request URL: /cgi/common.cgi
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 06:24:08 Error: [MissingControllerException] Controller class Stssys.htmController could not be found.
+Exception Attributes: array (
+  'class' => 'Stssys.htmController',
+  'plugin' => NULL,
+)
+Request URL: /stssys.htm
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 06:24:10 Error: [MissingControllerException] Controller class Command.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Command.phpController',
+  'plugin' => NULL,
+)
+Request URL: /command.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 06:24:11 Error: [MissingControllerException] Controller class LanguageController could not be found.
+Exception Attributes: array (
+  'class' => 'LanguageController',
+  'plugin' => NULL,
+)
+Request URL: /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 09:59:16 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 10:02:27 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 12:23:14 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 15:56:22 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/var/www/html/app/Controller/RoomsController.php, line 75]
+2016-10-29 15:56:22 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /rooms/ajax
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 75)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 75, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 75, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-29 16:52:17 Error: [MissingViewException] View file "Rooms/chat.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Rooms/chat.ctp',
+)
+Request URL: /rooms/chat/3
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest))
+#4 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-10-29 21:22:52 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 21:30:29 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 21:30:29 Error: [MissingControllerException] Controller class Sitemap.xmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Sitemap.xmlController',
+  'plugin' => NULL,
+)
+Request URL: /sitemap.xml
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 21:51:00 Error: [MissingControllerException] Controller class Vip163mx00.mxmail.netease.com:25Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Vip163mx00.mxmail.netease.com:25Controller',
+  'plugin' => NULL,
+)
+Request URL: /vip163mx00.mxmail.netease.com:25
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 22:12:52 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 22:13:07 Error: [MissingControllerException] Controller class PinchController could not be found.
+Exception Attributes: array (
+  'class' => 'PinchController',
+  'plugin' => NULL,
+)
+Request URL: /pinch/608.15.44.3.2.6YmE5qOSIOWxseaiqA..
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-29 23:36:35 Error: [MissingControllerException] Controller class ExpelController could not be found.
+Exception Attributes: array (
+  'class' => 'ExpelController',
+  'plugin' => NULL,
+)
+Request URL: /expel/607.107.24.6.2.5YaZ55yf5Y2w5Yi3IDHmnpox5YaG
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 01:40:41 Error: [MissingControllerException] Controller class ZbKfController could not be found.
+Exception Attributes: array (
+  'class' => 'ZbKfController',
+  'plugin' => NULL,
+)
+Request URL: /ZbKf
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 02:45:37 Error: [MissingControllerException] Controller class IController could not be found.
+Exception Attributes: array (
+  'class' => 'IController',
+  'plugin' => NULL,
+)
+Request URL: /i/mode=945.67.87.1.2.ZWxsZSDjg5bjg6njgqbjgrk.
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 07:22:53 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 09:03:17 Error: [MissingControllerException] Controller class PeachController could not be found.
+Exception Attributes: array (
+  'class' => 'PeachController',
+  'plugin' => NULL,
+)
+Request URL: /peach/302.67.62.3.2.55Sf44GN44Ko44OTIOmBi-OBtg..
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 09:31:50 Error: [MissingControllerException] Controller class SentController could not be found.
+Exception Attributes: array (
+  'class' => 'SentController',
+  'plugin' => NULL,
+)
+Request URL: /sent/891.60.31.4.2.44Of44Op44OQ44OzIGRvaGM.
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 11:53:45 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 12:22:16 Error: [MissingControllerException] Controller class RisenController could not be found.
+Exception Attributes: array (
+  'class' => 'RisenController',
+  'plugin' => NULL,
+)
+Request URL: /risen/613.46.35.8.2.5L2Q6YeO44Gy44Gq44GTIOWGmeecn-mbhg..
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 15:00:04 Error: [MissingControllerException] Controller class Vip163mx01.mxmail.netease.com:25Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Vip163mx01.mxmail.netease.com:25Controller',
+  'plugin' => NULL,
+)
+Request URL: /vip163mx01.mxmail.netease.com:25
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 16:27:31 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 17:36:11 Error: [MissingControllerException] Controller class AkashiController could not be found.
+Exception Attributes: array (
+  'class' => 'AkashiController',
+  'plugin' => NULL,
+)
+Request URL: /akashi/833.59.40.5.2.5Yq05YON5pmC6ZaT6KaP5Yi25rOV
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 17:54:58 Error: [MissingControllerException] Controller class FaceController could not be found.
+Exception Attributes: array (
+  'class' => 'FaceController',
+  'plugin' => NULL,
+)
+Request URL: /face/596.10.82.10.2.toto+apricot
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 21:07:49 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 21:07:55 Error: [MissingControllerException] Controller class IdenticalController could not be found.
+Exception Attributes: array (
+  'class' => 'IdenticalController',
+  'plugin' => NULL,
+)
+Request URL: /identical/124.34.39.1.2.44Os44Kk44K444O8IHZ0
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 21:49:44 Error: [MissingControllerException] Controller class BbsController could not be found.
+Exception Attributes: array (
+  'class' => 'BbsController',
+  'plugin' => NULL,
+)
+Request URL: /bbs/delete_comment.php?write_table=aaaa
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-30 23:55:14 Error: [MissingControllerException] Controller class Vip163mx00.mxmail.netease.com:25Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Vip163mx00.mxmail.netease.com:25Controller',
+  'plugin' => NULL,
+)
+Request URL: /vip163mx00.mxmail.netease.com:25
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-31 01:24:53 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-31 04:20:44 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/config.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-31 06:40:58 Error: [MissingControllerException] Controller class NewsController could not be found.
+Exception Attributes: array (
+  'class' => 'NewsController',
+  'plugin' => NULL,
+)
+Request URL: /news/num=766.93.14.4.2.bmUyMjNwbCAzcCAyMjVhZiAyMDBhdA..
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-31 08:38:43 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-31 09:06:28 Error: [MissingControllerException] Controller class Xmlrpc.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Xmlrpc.phpController',
+  'plugin' => NULL,
+)
+Request URL: /xmlrpc.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-31 10:08:29 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/app/Controller/UsersController.php, line 5]
+2016-10-31 10:08:29 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/a...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/a...', 5, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/a...', 5, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-31 10:59:42 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-31 12:40:49 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-31 12:40:52 Error: [MissingControllerException] Controller class PressController could not be found.
+Exception Attributes: array (
+  'class' => 'PressController',
+  'plugin' => NULL,
+)
+Request URL: /press/241.138.17.9.2.6aOb6aio6auY5bGxIOims-WFiSDpm7vou4o.
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-31 13:30:33 Error: [MissingControllerException] Controller class ClamorController could not be found.
+Exception Attributes: array (
+  'class' => 'ClamorController',
+  'plugin' => NULL,
+)
+Request URL: /clamor/81.20.2.1.2.acrobat+reader+download
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-31 13:37:31 Error: [MissingControllerException] Controller class Testproxy.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Testproxy.phpController',
+  'plugin' => NULL,
+)
+Request URL: /testproxy.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-31 16:20:08 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-31 16:20:10 Error: [MissingControllerException] Controller class CaiController could not be found.
+Exception Attributes: array (
+  'class' => 'CaiController',
+  'plugin' => NULL,
+)
+Request URL: /cai/99.154.50.3.2.44Kr44Op44O844OH44Kr44O844Or
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
