@@ -980,3 +980,13 @@ Request URL: /cai/99.154.50.3.2.44Kr44Op44O844OH44Kr44O844Or
 Stack Trace:
 #0 /var/www/html/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-11-01 00:23:49 Error: Fatal Error (1): Call to a member function create() on a non-object in [/var/www/html/app/Controller/UsersController.php, line 76]
+2016-11-01 00:23:49 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/addFriend/11
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 76)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 76, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 76, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

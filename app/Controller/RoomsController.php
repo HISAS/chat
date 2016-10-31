@@ -4,7 +4,7 @@ App::uses('AppController', 'Controller');
 
 class RoomsController extends AppController {
 
-	public $uses = array('Room', 'User', 'Post');
+	public $uses = array('Room', 'User', 'Post', 'add');
 
     public $components = array('RequestHandler');
 
@@ -40,6 +40,23 @@ class RoomsController extends AppController {
         $this->set('friends', $friends);
 	}
 
+	public function add($userId = null) {
+		$user = $this->Auth->user();
+		if($user['id'] == $userId){
+			$this->Flash->error(__('自分を友達に追加することはできません。'));
+			return $this->redirect('/users/search');
+		}
+		$this->Room->create();
+		$room['Room']['user_id'] = $user['id'];
+		$room['Room']['user_id2'] = $userId;
+		if ($this->Room->save($room)) {
+			$this->Flash->success(__('ユーザーを追加しました。'));
+			return $this->redirect('/users/search');
+		}
+		$this->Flash->error(__('ユーザーの追加に失敗しました。'));
+		return $this->redirect('/users/search');
+	}
+
     public function chat($roomId = null){
         $this->layout = "chat";
         $user = $this->Auth->user();
@@ -61,23 +78,14 @@ class RoomsController extends AppController {
         $this->set('posts', $posts);
         $this->set('user', $user);
         $this->set('receiver', $receiver);
-        // echo "<pre>";
-        // var_dump($posts);exit;
-        // echo "</pre>";
     }
 
 
     function ajax() {
 		$this->autoRender = false;
 		if ($this->request->is('ajax')) {
-			echo "<pre>";
-			var_dump($this->request);exit;
-			echo "</pre>";
 		}
         if($this->RequestHandler->isAjax()) {
-			echo "<pre>";
-			var_dump($this->request);exit;
-			echo "</pre>";
 			$this->autoRender = false;
             // POST情報は$this->params['form']で取得
             $result = $this->params['form']['messeage'];
@@ -88,8 +96,5 @@ class RoomsController extends AppController {
             // 表示用のデータをviewに渡す
             $this->set('t', $title);
         }
-		echo "<pre>";
-		var_dump('unko');exit;
-		echo "</pre>";
     }
 }

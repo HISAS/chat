@@ -52,10 +52,18 @@ class UsersController extends AppController {
 
     public function search() {
         if ($this->request->is('post')) {
-            echo "<pre>";
-            var_dump($this->request->data);exit;
-            echo "</pre>";
             $name = $this->request->data['User']['username'];
+            $user = $this->User->find('first', array(
+                'conditions' => array(
+                    'User.username' => $name
+                ),
+            ));
+            if(empty($user)){
+                $this->Flash->error(__($name . 'という名前のユーザーは存在しません。'));
+                return $this->redirect('search');
+            }
+            $this->set('user', $user);
+            $this->Flash->success(__($name . 'という名前のユーザーが見つかりました。'));
         }
     }
 
