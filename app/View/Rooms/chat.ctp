@@ -2,20 +2,20 @@
 <div id="wrapper">
     <?php foreach ($posts as $post): ?>
         <?php if ($post['Post']['user_id'] == $user["id"]): ?>
-            <div class="question_box">
-                <p class="name"><?php echo $user['username']; ?>　<?php echo date('G:i', strtotime($post['Post']['modified']));?></p>
-                <div id="arrow_question"><?php echo $post['Post']['message']; ?></div>
+            <div class="right_balloon">
+                <p class="my_name"><?php echo $user['username']; ?>　<?php echo date('G:i', strtotime($post['Post']['modified']));?></p>
+                <div id="right_message"><?php echo $post['Post']['message']; ?></div>
             </div>
         <?php else: ?>
-            <div class="answer_box">
-                <p class="name02"><?php echo $receiver['User']['username']; ?>　<?php echo date('G:i', strtotime($post['Post']['modified']));?></p>
-                <div id="arrow_answer"><?php echo $post['Post']['message']; ?></div>
+            <div class="left_balloon">
+                <p class="your_name"><?php echo $receiver['User']['username']; ?>　<?php echo date('G:i', strtotime($post['Post']['modified']));?></p>
+                <div id="left_message"><?php echo $post['Post']['message']; ?></div>
             </div>
         <?php endif; ?>
     <?php endforeach; ?>
     <?php
         echo $this->Form->create('Room', array('action' => 'ajax'));
-        echo $this->Form->text('messeage');
+        echo $this->Form->textarea('messeage');
         echo $this->Form->submit('Send', array('id' => 'formSubmit'));
         echo $this->Form->end();
     ?>
@@ -42,7 +42,7 @@ $(document).ready(function(){
             var jsonObj = $.parseJSON(data);
             console.log(jsonObj);
             alert(jsonObj);
-            var msg = $('<div/>').attr('id', 'arrow_answer').text(response.data).fadeIn();
+            var msg = $('<div/>').attr('id', 'right_message').text(response.data).fadeIn();
             $('#messageArea').append(msg);
         })
         .fail(function(){
